@@ -11,48 +11,47 @@ public abstract class Piece {
 	private final Color color;
 	private final String name;
 	protected final Chessboard board;
-	
+
 	public Piece(Chessboard board, Position position, Color color, String name, char symbol) {
-		
-		
+
 	}
-	
+
 	public char getSymbol() {
-		
+		return symbol;
 	}
-	
+
 	public Color getColor() {
-		
+		return color;
 	}
-	
+
 	public Position getPosition() {
-		
+		return position;
 	}
-	
+
 	public String getName() {
-		
+		return name;
 	}
-	
+
 	public boolean isBlack() {
-		
+		if (this.color == Color.BLACK) {
+			return 	true;		
+		}
+		else return false;
 	}
-	
+
 	public boolean isWhite() {
-		
+		if (this.color == Color.WHITE) {
+			return 	true;		
+		}
+		else return false;
 	}
-	
+
 	public void moveTo(Position position) {
-		
+
 	}
-	
+
 	public boolean isValidMove(Position position) {
-		
+
 	}
-	
-	
-	
-	
-	
-	
-	
+
 }

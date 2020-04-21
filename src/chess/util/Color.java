@@ -1,12 +1,10 @@
 package chess.util;
 
 public enum Color {
-	BLACK,
-	WHITE;
+	BLACK, WHITE;
 
-public Color() {
-	
-}
+	public Color() {
 
+	}
 
 }

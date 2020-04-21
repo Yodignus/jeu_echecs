@@ -1,59 +1,50 @@
 package chess;
 
+import chess.pieces.Piece;
+import chess.util.Position;
+
 public class Chessboard {
+	
 	private Piece[][] pieces;
 
-public Chessboard() {
-	
-	
-}
 
-public Piece getPiece(int x, int y) {
+	public String pr() {  //test
+		return "bjr";
+	}
 	
-}
-	
-public Piece getPiece(Position position) {
-	
-}
+	public Chessboard() {
+		pieces = new Piece[8][8];
+	}
 
-public void setPiece(Position position, Piece piece) {
-	
-}
+	public Piece getPiece(int x, int y) {
+		
+	}
 
-public boolean isPiecePresentOnSameDiagonalBetween(Position position, Position position) {
-	
-}
-	
-	
-public boolean isPiecePresentOnSameColumnBetween(Position position, Position position) {
-	
-}
+	public Piece getPiece(Position position) {
+		
 
-public boolean isPiecePresentOnSameLineBetween(Position position, Position position) {
-	
-}
+	}
 
-public String toString() {
-	
-}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	public void setPiece(Position position, Piece piece) {
+		
+		
+
+	}
+
+	public boolean isPiecePresentOnSameDiagonalBetween(Position position, Position position) {
+
+	}
+
+	public boolean isPiecePresentOnSameColumnBetween(Position position, Position position) {
+
+	}
+
+	public boolean isPiecePresentOnSameLineBetween(Position position, Position position) {
+
+	}
+
+	public String toString() {
+
+	}
+
 }

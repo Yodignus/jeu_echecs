@@ -3,8 +3,10 @@ package chess.util;
 public class Position {
 	private int x, y;
 
+		
 	public Position(int x, int y) {
-
+		this.x = x;
+		this.y = y;
 	}
 
 	public Position(String name) {
@@ -12,10 +14,12 @@ public class Position {
 	}
 
 	public int getX() {
+		return x;
 
 	}
 
 	public int getY() {
+		return y;
 
 	}
 
@@ -37,7 +41,7 @@ public class Position {
 	}
 
 	public String toString() {
-		return null;
+		
 
 	}
 
