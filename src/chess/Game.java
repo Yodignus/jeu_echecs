@@ -3,7 +3,6 @@ package chess;
 import chess.util.Color;
 import chess.util.Position;
 
-
 public class Game {
 
 	private String whitePlayerName;
@@ -36,8 +35,8 @@ public class Game {
 
 	public static void main(String[] args) {
 		Chessboard board = new Chessboard();
-		System.out.println(board.pr());  //test
-		
+		board.start(board);
+
 	}
 
 }

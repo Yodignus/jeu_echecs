@@ -2,10 +2,19 @@ package chess.util;
 
 public class Symbol {
 
-	public static final char WHITE_KING, WHITE_QUEEN, WHITE_ROOK, WHITE_BISHOP, WHITEKNIGHT, WHITE_PAWN, BLACK_KING,
-			BLACK_QUEEN, BLACK_ROOK, BLACK_BISHOP, BLACK_KNIGHT, BLACK_PAWN;
+	public final static char BLACK_BISHOP = '♝';
+	public final static char BLACK_KING = '♚';
+	public final static char BLACK_KNIGHT = '♞';
+	public final static char BLACK_PAWN = '♟';
+	public final static char BLACK_QUEEN = '♛';
+	public final static char BLACK_ROOK = '♜';
 
-	private Symbol() {
+	public final static char WHITE_BISHOP = '♗';
+	public final static char WHITE_KING = '♔';
+	public final static char WHITE_KNIGHT = '♘';
+	public final static char WHITE_PAWN = '♙';
+	public final static char WHITE_QUEEN = '♕';
+	public final static char WHITE_ROOK = '♖';
 
-	}
+	private Symbol() {}
 }
